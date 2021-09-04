@@ -1,0 +1,16 @@
+name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 17067423493626377476
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 2247832372
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 5728433589020483969
+physical_device_desc: "device: 0, name: NVIDIA GeForce GTX 1650 Ti with Max-Q Design, pci bus id: 0000:58:00.0, compute capability: 7.5"
