@@ -21,8 +21,8 @@ In order to check the device we use the device_lib.
 ```python
 local_device = device_lib.list_local_devices()
 ```
-The local_device variable will have the local device(s).
-The following code get the number of GPUs and prints to the console.
+The local_device variable get the local device(s). Then, we loop throw the local_device and get the GPU
+and increment the count when device_type is equal to GPU
 ```python
 gpu_info["count"] = len([d for d in local_device
                          if d.device_type == "GPU"])
